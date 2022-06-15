@@ -32,12 +32,24 @@
 
 .options {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     gap: 15px;
+    max-width: 300px;
     @include breakpoint($m) {
-        display: flex;
+        align-items: center;
         flex-direction: row;
         gap: 50px;
+    }
+    &.btn {
+        margin: 0;
+    }
+    &__cta {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 300px;
     }
 }
 

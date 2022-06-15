@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import menu from './icon-menu.svg';
 import './header.scss';
 import { Button } from '../buttons/buttons';
+import { DropDownMenu } from '../buttons/DropDownMenu';
 
 
 export const Header = (props) => {
@@ -31,6 +32,8 @@ export const Header = (props) => {
     }
 
 
+    const features = ['Todo list', 'Calendar', 'Reminders', 'Planning'];
+    const company = ['History', 'Our team', 'Blog'];
     return (
         <>
             <div className="header">
@@ -38,10 +41,10 @@ export const Header = (props) => {
                     <img className='logo' src={logo} alt='logo'/>
             {!props.mobile &&
                     <ul className='options'>
-                        <li>Features</li>
-                        <li>Company</li>
-                        <li>Careers</li>
-                        <li>About</li>
+                        <DropDownMenu subMenus={features}>Features</DropDownMenu>
+                        <DropDownMenu subMenus={company}>Company</DropDownMenu>
+                        <Button>Careers</Button>
+                        <Button>About</Button>
                     </ul>
             }
                 </nav>
@@ -50,13 +53,13 @@ export const Header = (props) => {
                     {menuMobile &&
                         <div className='menu-mobile'>
                             <div className='menu-mobile__background--white'>
-                                <ul>
-                                    <li>Features</li>
-                                    <li>Company</li>
-                                    <li>Careers</li>
-                                    <li>About</li>
+                                <ul className='options'>
+                                    <DropDownMenu subMenus={features}>Features</DropDownMenu>
+                                    <DropDownMenu subMenus={company}>Company</DropDownMenu>
+                                    <Button buttonStyle='none' className='none'>Careers</Button>
+                                    <Button buttonstyle='none' className='none'>About</Button>
                                 </ul>
-                                <div className='options'>
+                                <div className='options__cta'>
                                     <Button>Login</Button>
                                     <Button buttonStyle='outline' >register</Button>
                                 </div>
