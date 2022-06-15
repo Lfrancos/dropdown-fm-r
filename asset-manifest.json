@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dropdown-fm-r/static/css/main.f872072a.css",
-    "main.js": "/dropdown-fm-r/static/js/main.aa29b592.js",
+    "main.css": "/dropdown-fm-r/static/css/main.81a9ea0b.css",
+    "main.js": "/dropdown-fm-r/static/js/main.b0bb5306.js",
     "static/js/787.1ca375b5.chunk.js": "/dropdown-fm-r/static/js/787.1ca375b5.chunk.js",
     "static/media/image-hero-desktop.png": "/dropdown-fm-r/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-hero-mobile.png": "/dropdown-fm-r/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
@@ -11,13 +11,19 @@
     "static/media/client-meet.svg": "/dropdown-fm-r/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
     "static/media/client-audiophile.svg": "/dropdown-fm-r/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
     "index.html": "/dropdown-fm-r/index.html",
+    "static/media/icon-reminders.svg": "/dropdown-fm-r/static/media/icon-reminders.d573f5028c4469edf76a0b57065af566.svg",
+    "static/media/icon-planning.svg": "/dropdown-fm-r/static/media/icon-planning.7264cc64a81fa348da1d23defa87d2b5.svg",
+    "static/media/icon-calendar.svg": "/dropdown-fm-r/static/media/icon-calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/icon-todo.svg": "/dropdown-fm-r/static/media/icon-todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
     "static/media/icon-menu.svg": "/dropdown-fm-r/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
-    "main.f872072a.css.map": "/dropdown-fm-r/static/css/main.f872072a.css.map",
-    "main.aa29b592.js.map": "/dropdown-fm-r/static/js/main.aa29b592.js.map",
+    "static/media/icon-arrow-down.svg": "/dropdown-fm-r/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
+    "static/media/icon-arrow-up.svg": "/dropdown-fm-r/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
+    "main.81a9ea0b.css.map": "/dropdown-fm-r/static/css/main.81a9ea0b.css.map",
+    "main.b0bb5306.js.map": "/dropdown-fm-r/static/js/main.b0bb5306.js.map",
     "787.1ca375b5.chunk.js.map": "/dropdown-fm-r/static/js/787.1ca375b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f872072a.css",
-    "static/js/main.aa29b592.js"
+    "static/css/main.81a9ea0b.css",
+    "static/js/main.b0bb5306.js"
   ]
 }
