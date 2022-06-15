@@ -1,0 +1,81 @@
+@use '../../utils/variables.scss' as *;
+@use '../../utils/mixins.scss' as *;
+
+.landing-content {
+    margin: 0 auto;
+    max-width: 600px;
+    &__text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        // padding: 10px;
+        margin-top: 50px;
+        &__heading-one {
+            width: 100%;
+        }
+        & .text {
+            margin: 0 auto;
+            display: block;
+            max-width: 500px;
+            @include breakpoint($m) {
+                margin: 0;
+            }
+            & p {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                @include breakpoint($m) {
+                    text-align: left;
+                    max-width: 430px;
+                }
+            }
+        }
+        @include breakpoint($m) {
+            height: 60vh;
+            min-height: 500px;
+            margin-top: 0;
+            min-width: 540px;
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    &.btn {
+        margin: 0 auto;
+        text-align: center;
+        @include breakpoint($m) {
+            margin-left: 0;
+        }
+    }
+    &__img {
+        @include breakpoint($m) {
+            flex-grow: 1;
+            max-width: 600px;
+            min-height: 500px;
+            max-height: 80vh;
+        }
+    }
+    &__logos {
+        min-width: none;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        gap: 30px;
+        & .flex-item {
+            align-self: flex-end;
+            min-width: 30px;
+        }
+
+    }
+    @include breakpoint($m) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        max-width: 1000px;
+        align-items:flex-end;
+        gap: 10px;
+    }
+    @include breakpoint($ms) {
+        gap: 80px;
+    }
+}

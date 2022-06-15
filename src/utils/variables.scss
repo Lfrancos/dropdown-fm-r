@@ -1,0 +1,17 @@
+:root {
+    --color-Almost-White: 0, 0%, 98%;
+    --color-Medium-Gray: 0, 0%, 41%;
+    --color-Almost-Black: 0, 0%, 8%;
+
+    --font-epilogue: 'Epilogue', sans-serif;
+}
+
+
+// this are scss variables that I will use for the mixin that I created for the breakpoint of the screen sizes.
+$xs: 481px;
+$s: 769px;
+$m: 1025px;
+$ms: 1200px;
+$l: 1201px;
+
+

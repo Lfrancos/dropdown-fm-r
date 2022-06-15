@@ -1,0 +1,31 @@
+.btn {
+    background-color: hsl(var(--color-Almost-White));
+    padding: 5px 20px;
+    color: hsl(var(--color-Medium-Gray));
+    border-radius: 17px;
+    border: 2px solid hsl(var(--color-Almost-White));
+    cursor: pointer;
+    &:hover {
+        color: hsl(var(--color-Almost-Black));
+    }
+    &.outline {
+        border: 2px solid hsl(var(--color-Medium-Gray));
+        &:hover {
+            background-color: hsl(var(--color-Almost-Black));
+            color: hsl(var(--color-Almost-White));
+            border: 2px solid hsl(var(--color-Almost-Black));
+        }
+    }
+
+    &.background {
+        background-color: hsl(var(--color-Almost-Black));
+        color: hsl(var(--color-Almost-White));
+        padding: 15px 20px;
+        font-weight: 700;
+        border: 2px solid hsl(var(--color-Almost-Black));
+        &:hover {
+            color: hsl(var(--color-Almost-Black));
+            background-color: hsl(var(--color-Almost-White));
+        }
+    }
+}
