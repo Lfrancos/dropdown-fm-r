@@ -1,3 +1,81 @@
+# Frontend Mentor - Intro section with dropdown navigation solution
+
+This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Getting started with create react app](#getting-started-with-create-react-app)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [here](https://github.com/Lfrancos/dropdown-fm-r)
+- Live Site URL: [here](https://lfrancos.github.io/dropdown-fm-r/)
+
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+
+### What I learned
+
+I'm learning to use react and it was really nice to use conditional rendering. Still there are things that I'm not sure I'm understanding that well. It is working but not sure it is the most optimal way or the easiest thing to read.
+I'm really liking the use of "States" really simple and elegant way to handle states and to save information.
+
+### Continued development
+
+I love using components because they make it really easy to read the code since everything is separated with their own functionality. Still I want to keep using them and figuring best practices with them to make sure that my code is easy for other people.
+I really need to keep working with "useEffect" even though it seems to be working here I really want to understand it in a deep way.
+
+## Author
+
+- Website - [@lorenzo.francos](https://www.lorenzofrancos.com)
+- Instagram - [@lorenzo.francos](https://www.instagram.com/lorenzo.francos/?hl=en)
+- Github - [@Lfrancos](https://github.com/Lfrancos)
+- Frontend Mentor - [@Lfrancos](https://www.frontendmentor.io/profile/Lfrancos)
+
+
+<br>
+<br>
+<br>
+
+
+***
+---
+
+<br>
+<br>
+<br>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
