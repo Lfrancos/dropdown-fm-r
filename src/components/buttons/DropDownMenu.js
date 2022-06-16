@@ -12,8 +12,6 @@ import iconPlanning from './images/icon-planning.svg';
 export const DropDownMenu = (props) => {
     const [open, setOpen] = useState(false);
 
-    const menu = document.querySelector(`.drop-down-menu.${props.children}` )
-
     const handleClick = () => {
         setOpen(()  => !open);
     }
