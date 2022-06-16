@@ -1,26 +1,34 @@
 @use '../../utils/variables.scss' as *;
 @use '../../utils/mixins.scss' as *;
 
-.drop-down-menu {
-    padding: 30px;
-    width: fit-content;
-    &__item {
-        display: flex;
-        gap: 10px;
-        margin-top: 10px;
-        white-space: nowrap;
+.drop-down {
+    &-menu {
+        padding: 30px;
+        &__item {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            white-space: nowrap;
+        }
+        &__icon {
+            width: 15px;
+        }
+        @include breakpoint($m) {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            border-radius: 16px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+        & li {
+            cursor: pointer;
+            &:hover {
+                color: hsl(var(--color-Almost-Black));
+            }
+        }
     }
-    &__icon {
-        width: 15px;
-    }
-    @include breakpoint($m) {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        border-radius: 16px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    }
+
 }
 
 .dd {

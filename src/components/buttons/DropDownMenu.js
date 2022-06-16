@@ -11,6 +11,7 @@ import iconPlanning from './images/icon-planning.svg';
 
 export const DropDownMenu = (props) => {
     const [open, setOpen] = useState(false);
+
     const menu = document.querySelector(`.drop-down-menu.${props.children}` )
 
     const handleClick = () => {
@@ -35,7 +36,7 @@ export const DropDownMenu = (props) => {
     }
     return (
         <div className='dd'  >
-            <Button className='drop-down' onClick={handleClick} >{props.children} <span><img src={open ? arrowUp : arrowDown} alt=''/></span> </Button>
+            <Button className='drop-down' onClick={handleClick} >{props.children} <img src={open ? arrowUp : arrowDown} alt='icon'/> </Button>
             {open &&
                 <div className={`drop-down-menu ${props.children}`} >
                     <ul>
