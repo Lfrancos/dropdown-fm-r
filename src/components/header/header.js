@@ -41,10 +41,14 @@ export const Header = (props) => {
                     <img className='logo' src={logo} alt='logo'/>
             {!props.mobile &&
                     <ul className='options'>
-                        <DropDownMenu subMenus={features}>Features</DropDownMenu>
-                        <DropDownMenu subMenus={company}>Company</DropDownMenu>
-                        <Button>Careers</Button>
-                        <Button>About</Button>
+                        <li>
+                            <DropDownMenu subMenus={features}>Features</DropDownMenu>
+                        </li>
+                        <li>
+                            <DropDownMenu subMenus={company}>Company</DropDownMenu>
+                        </li>
+                        <li><Button>Careers</Button></li>
+                        <li><Button>About</Button></li>
                     </ul>
             }
                 </nav>
@@ -54,10 +58,14 @@ export const Header = (props) => {
                         <div className='menu-mobile'>
                             <div className='menu-mobile__background--white'>
                                 <ul className='options'>
-                                    <DropDownMenu subMenus={features}>Features</DropDownMenu>
-                                    <DropDownMenu subMenus={company}>Company</DropDownMenu>
-                                    <Button buttonStyle='none' className='none'>Careers</Button>
-                                    <Button buttonstyle='none' className='none'>About</Button>
+                                    <li>
+                                        <DropDownMenu subMenus={features}>Features</DropDownMenu>
+                                    </li>
+                                    <li>
+                                        <DropDownMenu subMenus={company}>Company</DropDownMenu>
+                                    </li>
+                                    <li><Button buttonStyle='none' className='none'>Careers</Button></li>
+                                    <li><Button buttonstyle='none' className='none'>About</Button></li>
                                 </ul>
                                 <div className='options__cta'>
                                     <Button>Login</Button>
